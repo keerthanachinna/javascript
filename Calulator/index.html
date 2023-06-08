@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .calculator input {
+        grid-column: 1 / -1;
+        padding: 5px;
+        text-align: right;
+      }
+      .calculator button {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" readonly>
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button onclick="appendOperator('+')">+</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="appendOperator('-')">-</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendOperator('*')">*</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="appendOperator('.')">.</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendOperator('/')">/</button>
+      <button onclick="clearCalculator()">C</button>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
