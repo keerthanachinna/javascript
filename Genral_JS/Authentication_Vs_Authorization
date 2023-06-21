@@ -1,0 +1,2 @@
+authentication - login user authentication user or not based on token 
+authorization - user have permistion for patigular page

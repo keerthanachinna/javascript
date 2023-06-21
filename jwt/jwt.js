@@ -1,0 +1,5 @@
+- Creating Node.js authentication middleware
+- Using refresh tokens with JWT
+- Authenticating users with JWT
+- Invalidating refresh tokens to log users out
+- How to use JWT securely

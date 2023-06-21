@@ -1,0 +1,21 @@
+ Overview
+
+ LocalStorage
+ SessionStorage
+ Cookies
+
+ In js 
+ browser storage 
+ local 
+ session
+ cookies
+ localStorage.setItem({'name','jim'})// key value
+  localStorage.getItem('name')// key value
+
+  console.log(localStorage.getItem('name'));
+
+ sessionStorage.setItem("terms", terms);
+sessionStorage.getItem("terms");
+console.log(sessionStorage.getItem('terms'));
+
+document.

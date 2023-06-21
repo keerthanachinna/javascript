@@ -1,0 +1,30 @@
+ JWT (JSON Web Token) is widely used for authentication and authorization in web applications and APIs. It offers several advantages that make it a popular choice:
+ 1.Stateless and Scalable:
+ 2.Secure Data Exchange:
+ 3.Cross-Domain and Cross-Platform:
+ 4.Compact and Efficient:
+ 5.Authorization and Access Control:
+ 6.Single Sign-On (SSO)
+ 7.Mobile and Browser-Friendly:
+ 1.Stateless and Scalable: JWTs are designed to be stateless, meaning the server does not need to store session data or user information on its side. The token itself contains the necessary information, such as user identity and permissions. This makes JWTs highly scalable and reduces the server's burden of managing session data.
+
+2.Secure Data Exchange: JWTs provide a secure way to exchange data between parties. The token is digitally signed using a secret key or private key, allowing the recipient to verify the authenticity and integrity of the token. This helps prevent tampering and ensures that the information contained in the token remains secure.
+
+3.Cross-Domain and Cross-Platform: JWTs are widely supported across different platforms, programming languages, and frameworks. They can be used in distributed systems, allowing seamless authentication and authorization across various domains or microservices.
+
+4.Compact and Efficient: JWTs have a compact format, making them efficient for transmission over networks. The token can be easily included in HTTP headers, URL parameters, or as part of the request payload.
+
+5.Authorization and Access Control: JWTs can include custom claims that specify user permissions, roles, or other access control information. This allows the server to make authorization decisions based on the claims within the token.
+
+6.Single Sign-On (SSO): JWTs can be utilized for implementing Single Sign-On across multiple applications or services. Once a user is authenticated and receives a JWT, they can present it to other applications, eliminating the need for repeated authentication.
+
+7.Mobile and Browser-Friendly: JWTs can be conveniently stored and managed on client-side technologies such as mobile apps or browser applications. They can be stored in local storage or as HTTP-only cookies, providing a seamless user experience across different devices.
+
+Overall, JWTs provide a flexible and secure method for authentication and authorization, promoting interoperability, scalability, and improved user experience in modern web applications and APIs.
+ 
+ What JWT is
+- JWT vs Session
+- The components of JWT
+- How JWT is secure
+- When you should use JWT
+- The advantages of JWT
