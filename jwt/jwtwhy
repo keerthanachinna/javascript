@@ -28,3 +28,20 @@ Overall, JWTs provide a flexible and secure method for authentication and author
 - How JWT is secure
 - When you should use JWT
 - The advantages of JWT
+
+- Creating Node.js authentication middleware
+- Using refresh tokens with JWT
+- Authenticating users with JWT
+- Invalidating refresh tokens to log users out
+- How to use JWT securely
+
+npm run devStart
+
+convert git hub to vs code online
+ change this line to this line just add "1s" in github.come before
+ before
+ https://github.com/WebDevSimplified/JWT-Authentication/blob/HEAD/server.js
+ affter
+ https://github1s.com/WebDevSimplified/JWT-Authentication/blob/HEAD/server.js
+
+ 
