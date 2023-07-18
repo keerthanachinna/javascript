@@ -1,0 +1,36 @@
+select * from tablename
+select column name1 ,columnname2 from table name
+select column name 1,col name 2,* from table name where condiion 
+select column name 1,col name 2,* from table name where column name !='' and columnname2 != ''
+select column name 1,col name 2,* from table name where column name !='' or columnname2 != ''
+select column name 1,col name 2,* from table name where column name is not null
+select column name 1,col name 2,* from table name where column name  not null
+select column name 1,col name 2,* from table name order by columname
+select column name 1,col name 2,* from table name order by columname1,columnname2
+select column name 1,col name 2,* from table name order by columname1 desc/asc
+select column name 1,col name 2,* from table name order by columname1 desc,columname1 asc;
+select DISTINCT column name1 ,column name 2 from table name 
+select count(*) as distinctcount from (select DISTINCT column name from tablename)
+
+truncate table tablename - detele all data from the table
+drop table tablename - delete the table from the database
+alter table tablename set columnname datatype- alter table column data type and column name 
+update table set column name where condiion - must need to be provied
+delete from table name where condition - delete also must add condition before run the query
+
+
+insert and select both only having into key word
+
+join
+
+(INNER) JOIN: Returns records that have matching values in both tables
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+FULL OUTER JOIN can potentially return very large result-sets!
+self join - A self join is a regular join, but the table is joined with itself.
+union - merge to select query 
+
+
+
+
