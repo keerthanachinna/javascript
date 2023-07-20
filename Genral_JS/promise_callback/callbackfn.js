@@ -47,3 +47,50 @@ setTimeout(()=>{
 // setTimeout(() => { 
 //     console.log('Callback as Arrow Function'); 
 // }, 1000);
+
+
+const posts=[
+    {title:"post one",body:"this is post one"},
+    {title:"post two",body:"this is post two"}
+]
+
+function getposts(){
+    setTimeout(()=>{
+        let output='';
+        posts.forEach((post,index)=>{
+            output+=`<li>${post.title}</li>`
+        })
+        document.body.innerHTML= output;
+    },1000)
+}
+
+function createpost(post){
+    setTimeout(()=>{
+        post.push(post);
+    },2000)
+}
+getposts();
+createpost({title:"post one",body:"this is post one"})
+
+// output
+// post one
+// post two
+
+// alternate using call back
+
+function createpost(post,callback){
+    setTimeout(()=>{
+        post.push(post);
+        callback();
+    },2000)
+}
+// getposts(); no need to call 
+createpost({title:"post three",body:"this is post three"},getposts)
+
+// output
+// post one
+// post two
+// post three
+
+
+// alternate using promise
